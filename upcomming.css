@@ -85,8 +85,8 @@ blog section styles start
   height: 100%;
 }
 .upcomming-match a {
-  background: #fff;
-  color: #000;
+  background: #dd0000;
+  color: #fff;
   padding: 10px 10px;
   border-radius: 10px;
   display: inline-block;
@@ -102,6 +102,10 @@ blog section styles start
   border-radius: 10px;
   font-weight: 500;
 }
+.bolog-item a{
+  background-color: #fff;
+  color: #000;
+}
 /*  blog start */
 .blogs {
   display: grid;
@@ -114,11 +118,12 @@ blog section styles start
 .blog {
   border: 1px solid rgb(163, 163, 163);
   border-radius:  5px;
-  padding: 10px;
+  padding: 14px;
 }
 .flagvsflag {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
  .flagvsflag img{
   width:100px;
