@@ -113,14 +113,20 @@ blog section styles start
 }
 .blog {
   border: 1px solid rgb(163, 163, 163);
-  border-radius: 35px 35px 10px 10px;
+  border-radius:  5px;
+  padding: 10px;
 }
-.paragraph {
+.flagvsflag {
   display: flex;
+  align-items: center;
 }
- .paragraph img{
-  width:150px;
+ .flagvsflag img{
+  width:100px;
  }
+.flagvsflag h1{
+  margin: 0px 10px;
+  font-size: 18px;
+}
 
 /* footer section start */
 footer {
